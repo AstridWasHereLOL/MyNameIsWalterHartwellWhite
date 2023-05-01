@@ -12,7 +12,7 @@ const ratelimitTimeout = 5000;
 // Rendering videos is costly, I would recommend you'd keep this to a five second cooldown per IP
 const deletionTimeout = 185000;
 // The rendered video will be cached for 185 seconds
-const portNumber = 8080;
+const portNumber = 80;
 // Change `portNumber` to 80 if you are not using a reverse proxy like Nginx
 
 if (existsSync("./bin")) await rm("./bin", { recursive: true });
