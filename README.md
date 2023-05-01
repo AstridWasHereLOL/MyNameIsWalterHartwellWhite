@@ -2,13 +2,13 @@
 	<img src="./assets/theberg.gif">
 </p>
 
-# My Name Is Walter Hartwell White
+# My Name Is DeQuavon Jr. and I'm sturdy asf!!!
 
 A website to tell your confession, and to see your IP, inspired by BattleOfWits
 
-[A live-version is running on my server](https://niko.wav.blue/)
 
-Support and fuel my stupidity by donating to my **[Patreon](patreon.com/WaviestBalloon)**
+
+Support and fuel the original creator by donating to their **[Patreon](patreon.com/WaviestBalloon)**
 
 # Setup
 
