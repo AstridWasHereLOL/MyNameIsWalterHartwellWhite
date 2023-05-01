@@ -48,7 +48,7 @@ async function renderVideo(ip: string, ipFileSafe: string, res: FastifyReply) {
 		res.code(500).send({ error: "Couldn't write information to bin directory, try again later." });
 	}
 
-	const command = `ffmpeg -i ./assets/funny.mp4 -vf "drawtext=fontfile=./assets/impact.ttf:textfile=./bin/logs/${ipFileSafe}.txt:fontcolor=white:fontsize=45:x=(w-text_w)/12:y=(h-text_h)/2" -c:a copy -c:v libx264 -preset veryfast -crf 51 ./bin/videos/${ipFileSafe}_out.mp4`;
+	const command = `ffmpeg -i ./assets/funny.mp4 -vf "drawtext=fontfile=./assets/impact.ttf:textfile=./bin/logs/${ipFileSafe}.txt:fontcolor=white:fontsize=45:x=(w-text_w)/12:y=(h-text_h)/2" -c:a copy -c:v libx264 -preset veryfast -crf 18 ./bin/videos/${ipFileSafe}_out.mp4`;
 	await new Promise((resolve, reject) => {
 		exec(command, (err, stdout, stderr) => {
 			if (err) {
